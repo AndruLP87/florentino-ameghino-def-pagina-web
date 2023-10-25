@@ -88,6 +88,14 @@ a{
     height:130px;
     list-style: none;
 }
+.EDUANA{
+    height: 130px;
+    width: 170px;
+    transition: transform 0.3s;;
+}
+.EDUANA:hover{
+    transform: scale(1.2);
+}
 .CP{
     height: 70px;
     width: 250px;
@@ -110,14 +118,6 @@ a{
     transition: transform 0.3s;
 }
 .WH:hover {
-    transform: scale(1.2);
-}
-.GM{
-    height: 70px;
-    width: 70px;
-    transition: transform 0.3s;
-}
-.GM:hover {
     transform: scale(1.2);
 }
 .FA{
@@ -192,20 +192,19 @@ input[type="submit"]:hover {
     display: flex;
     align-items: center;
     position: relative;
-  }
+}
   
-  .carousel-slide {
+.carousel-slide {
     display: flex;
     overflow: hidden;
-  }
-  .carousel-slide img{
+}
+.carousel-slide img{
     height: 700px;
     width: 1080px;
-  }
-  .carousel-slide img:first-child {
+}
+.carousel-slide img:first-child {
     display: block;
-  }
-  
+}
 button {
     cursor: pointer;
     background-color: #0074e4;
@@ -221,7 +220,7 @@ button {
 button:hover {
     background-color: #005bac;
 }
-  .Imagenes{
+.Imagenes{
     height:100px;
     width: 100px;
-  }
+}
