@@ -188,3 +188,40 @@ input[type="submit"]:hover {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    overflow: hidden;
+  }
+  .carousel-slide img{
+    height: 700px;
+    width: 1080px;
+  }
+  .carousel-slide img:first-child {
+    display: block;
+  }
+  
+button {
+    cursor: pointer;
+    background-color: #0074e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+      
+button:hover {
+    background-color: #005bac;
+}
+  .Imagenes{
+    height:100px;
+    width: 100px;
+  }
