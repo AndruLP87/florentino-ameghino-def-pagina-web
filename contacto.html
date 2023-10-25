@@ -45,25 +45,7 @@
         
         <input class="msj" type="submit" value="Enviar">
     </form>
-    <script>
-        // Obtén el formulario por su ID
-        const formulario = document.getElementById("miFormulario");
-
-        // Agrega un evento para el envío del formulario
-        formulario.addEventListener("submit", function(event) {
-            event.preventDefault(); // Evita que el formulario se envíe de inmediato
-
-            // Obtiene los valores de los campos de entrada
-            const nombre = document.getElementById("nombre").value;
-            const email = document.getElementById("email").value;
-            const mensaje = document.getElementById("mensaje").value;
-
-            console.log("Nombre: " + nombre);
-            console.log("Correo Electrónico: " + email);
-            console.log("Mensaje: " + mensaje);
-        });
-    </script>
-
+    <script src="index.js"></script>
    </main>
 </body>
 <footer class="footer">

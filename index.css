@@ -14,8 +14,8 @@ body {
 }
 .listado li{
     padding-right: 200px;
-    height: 160px;
-    font-size: 60px;
+    height: 130px;
+    font-size: 70px;
     font-family: 'Dancing Script', cursive;
     list-style: none;
     transition: transform 0.3s;
@@ -30,8 +30,8 @@ a{
     transform: scale(1.2);
 }
 .FAimag{
-    height: 150px;
-    width: 120px;
+    height: 130px;
+    width: 100px;
 }
 .bn{
     font-size: 70px;
@@ -51,7 +51,7 @@ a{
 }
 .bn3{
     color: black;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Dancing Script', cursive;
     transition: color 0.5s;
 }
@@ -68,13 +68,14 @@ a{
     transform: scale(1.2);
 }
 .historia1{
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Shadows Into Light', cursive;
 }
 .historia{
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
 }
+
 .footer{
     background-color:blanchedalmond
 }
@@ -84,44 +85,44 @@ a{
 }
 .listadoDeAbajo li{
     padding-right: 85px;
-    height:160px;
+    height:130px;
     list-style: none;
 }
 .CP{
-    height: 90px;
-    width: 300px;
+    height: 70px;
+    width: 250px;
     transition: transform 0.3s;
 }
 .CP:hover {
     transform: scale(1.2);
 }
 .IN{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     transition: transform 0.3s;
 }
 .IN:hover {
     transform: scale(1.2);
 }
 .WH{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     transition: transform 0.3s;
 }
 .WH:hover {
     transform: scale(1.2);
 }
 .GM{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     transition: transform 0.3s;
 }
 .GM:hover {
     transform: scale(1.2);
 }
 .FA{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     transition: transform 0.3s;
 }
 .FA:hover {
