@@ -205,6 +205,13 @@ input[type="submit"]:hover {
 .carousel-slide img:first-child {
     display: block;
 }
+.carousel-slide img {
+    display: none;
+}
+  
+.carousel-slide img:first-child {
+    display: block;
+}
 button {
     cursor: pointer;
     background-color: #0074e4;
